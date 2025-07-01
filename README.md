@@ -20,3 +20,16 @@ If R<sub>1</sub> is `=`, set S to G<sub>1</sub> and set W to `0` if R<sub>0</sub
 
 If R<sub>0</sub> and R<sub>1</sub> are the same, set S to G<sub>0</sub> and set W to `0` if R<sub>0</sub> is `>` and `1` if R<sub>0</sub> is `<`.
 
+Now, split S into 2 groups: S<sub>0</sub> and S<sub>1</sub>.
+
+Have an extra group named S<sub>2</sub>.
+
+Compare S<sub>0</sub> and S<sub>1</sub> and store the result in R<sub>2</sub>.
+
+If R<sub>2</sub> is `<` and W is `0` then set S<sub>2</sub> to S<sub>0</sub>.
+
+If R<sub>2</sub> is `<` and W is `1` then set S<sub>2</sub> to S<sub>1</sub>.
+
+If R<sub>2</sub> is `>` and W is `0` then set S<sub>2</sub> to S<sub>1</sub>.
+
+If R<sub>2</sub> is `>` and W is `1` then set S<sub>2</sub> to S<sub>0</sub>.
