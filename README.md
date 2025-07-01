@@ -6,7 +6,7 @@ Currently my solution requires 4 compares (we need 3 compares for a full solutio
 
 ## How my 'solution' works
 
-Divide the 12 balls into 3 groups. (we will call the groups G<sup>0</sup>, G<sup>1</sup>, and G<sup>2</sup>)
+Divide the 12 balls into 3 groups. (we will call the groups G<sub>0</sub>, G<sub>1</sub>, and G<sub>2</sub>)
 
-Now, compare G<sup>0</sup> and G<sup>1</sup>. Store the result in R<sup>0</sup>.
-Then, compare G<sup>0</sup> and G<sup>2</sup>. Store the result in R<sup>0</sup>. 
+Now, compare G<sub>0</sub> and G<sub>1</sub>. Store the result in R<sub>0</sub>.
+Then, compare G<sub>0</sub> and G<sub>2</sub>. Store the result in R<sub>0</sub>. 
