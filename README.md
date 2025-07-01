@@ -33,3 +33,5 @@ If R<sub>2</sub> is `<` and W is `1` then set S<sub>2</sub> to S<sub>1</sub>.
 If R<sub>2</sub> is `>` and W is `0` then set S<sub>2</sub> to S<sub>1</sub>.
 
 If R<sub>2</sub> is `>` and W is `1` then set S<sub>2</sub> to S<sub>0</sub>.
+
+Now, using W, compare the 2 elements in S<sub>2</sub> and select the odd one out
